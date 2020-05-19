@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mision Y Vision</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/funciones.js"></script>
   </head>
   <body>
     <!-- cabezera -->
@@ -40,8 +41,122 @@
 
     <!-- contenido -->
     <div class="contenedor">
-     <!-- contenido depende de pagina -->
+      <!-- contenido depende de pagina -->
+      <div class="formulario2">
+        <h2>Cita Nutriologo</h2>
+  <form action="paginas/grabar_informacion15.php" method="post" id="form_vendiendo_motos" onsubmit="return ValidaFormulario();">
+    <div class="principal colorear">
+        <div class="ncampos">
+            <label for="txtnombre">Nombre: </label>
+            <br /><br />
+        </div>
 
+        <div class="ecampos" >
+            <input type="text" name="txtnombre" id="txtnombre">
+            <br /><br />
+
+            <label for="txtnombre">Correo: </label>
+            <br /><br />
+        </div>
+
+        <div class="ecampos" >
+            <input type="email" name="txtemail" id="txtemail" placeholder="mail@mail.com">
+            <br /><br />
+          
+
+        </div>
+
+    </div>
+    <div class="combox centrar bordes colorear">
+        <h3 class="centrar">Selecciona Sexo: </h3>
+    <p> 
+      <select txtnombre="TipoMoto" id="tipo_moto">
+          <option value="00">--Selecciona tu sexo--</option>
+          <option value="ruta">Mujer</option>
+          <option value="pista">Hombre</option>
+          <option value="pista">Otro</option>
+          
+      </select>
+    </p>
+    </div>
+
+    
+    <div class="fecha centrar bordes colorear">
+        <h3 class="centrar">Seleciona fecha de nacimiento:</h3>
+
+<p>Día:
+<select txtnombre="dia" id="combo_dia">
+    <option value="00">--</option>
+    <option value="01">01</option>  <option value="02">02</option> <option value="03">03</option>
+    <option value="04">04</option>  <option value="05">05</option> <option value="06">06</option>
+    <option value="07">07</option>  <option value="08">08</option> <option value="09">09</option>
+    <option value="10">10</option>  <option value="11">11</option> <option value="12">12</option>
+    <option value="13">13</option>  <option value="14">14</option> <option value="15">15</option>
+    <option value="16">16</option>  <option value="17">17</option> <option value="18">18</option>
+    <option value="19">19</option>  <option value="20">20</option> <option value="21">21</option>
+    <option value="22">22</option>  <option value="23">23</option> <option value="24">24</option>
+    <option value="25">25</option>  <option value="26">26</option> <option value="27">27</option>
+    <option value="28">28</option>  <option value="29">29</option> <option value="30">30</option>
+    <option value="31">31</option>  
+</select>
+Mes:
+<select txtnombre="semana" id="combo_semana">
+    <option value="00">--</option>
+    <option value="Enero">Enero</option> <option value="Febreo">Febreo</option> <option value="Marzo">Marzo</option>
+    <option value="Abril">Abril</option> <option value="Mayo">Mayo</option> <option value="Junio">Junio</option>
+    <option value="Julio">Julio</option>  
+    <option value="Agosto">Agosto</option>  
+    <option value="Octubre">Octubre</option>  
+    <option value="Noviembre">Noviembre</option>  
+    <option value="Diciembre">Diciembre</option>  
+</select>
+Año:
+<select txtnombre="ano" id="combo_ano">
+    <option value="00">----</option>
+    <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option>
+    <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option>
+    
+</select>
+</p>
+</div>
+
+<div class="radio">
+  <h3 class="centrar">Selecciona Forma de pago:</h3>
+  <table>
+      <tr>
+          <td>
+              <input type="radio" name="marca" id="marca1" value="Honda">Efectivo
+          </td>
+          <td>
+              <input type="radio" name="marca" id="marca2" value="Yamaha">Tarjeta
+          </td>
+          <td>
+              <input type="radio" name="marca" id="marca3" value="Can Am">Paypal
+          </td>
+      </tr>
+    </table>
+    
+  </div>
+  
+</br>
+
+<input type="submit"  class="boton1" value="Enviar" size="30px" id="btn_grabar">
+<input onclick="borrar()" class="boton2" type="button" value="RESET">
+
+<script>
+    function enviar(){
+      alert("Compra Realizada");  
+    }
+    function borrar(){
+      alert("Borraste la informacion");  
+    }
+    
+</script>
+
+<input type="hidden" txtnombre="txtoculto" value="Alan_Garcia">
+</div>
+</form>
+</div>
 
      </div>
 

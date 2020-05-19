@@ -507,3 +507,17 @@ padding-right: 5px;
     text-align: left;
     margin-left: 250px;
   }
+
+  /* NUTRIOLOGO */
+
+  .formulario2{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url(../imagenes/nutri.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
