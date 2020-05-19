@@ -489,3 +489,21 @@ padding-right: 5px;
   background-image: url();
 }
 
+
+  /* MEMBRESIAS */
+
+  .formulario1{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url(../imagenes/mujer10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  .radio{
+    text-align: left;
+    margin-left: 250px;
+  }
