@@ -423,3 +423,9 @@ box-shadow: 0px -1px 8px 4px rgba(0,0,0,0.75);
   border-radius: 10px;
   border: solid 4px rgb(116, 170, 231);
 }
+
+/* SERVICIOS */
+
+.mujer5 ul>li{
+  text-align: left;
+ }
