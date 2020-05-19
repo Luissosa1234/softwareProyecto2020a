@@ -429,3 +429,63 @@ box-shadow: 0px -1px 8px 4px rgba(0,0,0,0.75);
 .mujer5 ul>li{
   text-align: left;
  }
+
+ /* PRODUCTOS  */
+
+ .caja_productos{
+   margin-top: 4px;
+   width: 700px;
+   height: 180px;
+   border-radius: 10px;
+   border: solid 4px rgb(79, 148, 226);
+   color: rgb(94, 174, 211);
+   text-align: left;
+   text-align: justify;
+ }
+
+ .caja_productos h4{
+  -webkit-box-shadow: 0px -1px 8px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 8px 4px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 8px 4px rgba(0,0,0,0.75);
+   
+ }
+
+
+
+
+.fondo_productos1{
+background-image: url(../imagenes/accesorios.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.fondo_productos1:hover{
+  background-color: black;
+  background-image: url();
+}
+.fondo_productos2{
+background-image: url(../imagenes/suplementos.jfif);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 5px;
+padding-right: 5px;
+}
+.fondo_productos2:hover{
+  background-color: black;
+  background-image: url();
+}
+
+.fondo_productos3{
+  background-image: url(../imagenes/comida.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fondo_productos3:hover{
+  background-color: black;
+  background-image: url();
+}
+
