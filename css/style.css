@@ -128,12 +128,13 @@ th {
 }
 
 #exito {
+  display: block;
   width: 200px;
+  height: 110px;
 }
 
 /* recuadro derecho */
 .derecho {
-
   height: 100%;
 }
 
