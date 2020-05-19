@@ -30,8 +30,10 @@ nav {
   width: 700px;
   margin: auto;
   height: 30px;
-  margin-top: 10px;
+  margin-top: -8px;
+  margin-bottom: 10px;
   text-align: center;
+  font-weight: bold;
 }
 /* links de barra de navegacion */
 nav a {
@@ -56,6 +58,37 @@ nav a:hover {
     rgba(241, 142, 153, 1) 100%
   );
 }
+
+nav a{
+  text-decoration:none;
+  font-size:14px;
+  }
+        
+nav ul{
+  display:inline-block;
+  width:100px;
+  height:20px;
+  padding:0px 0px;
+}
+nav li{
+  list-style: none;
+  text-align: left;
+}
+        
+
+        
+nav li>ul{
+  display:none;
+  }
+
+nav li:hover>ul{
+  display:block;
+  position:absolute;
+  
+}
+
+
+
 /* contenedor */
 .contenedor {
   width: 700px;
